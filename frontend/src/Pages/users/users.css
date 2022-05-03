@@ -1,0 +1,116 @@
+.user-item {
+    margin: 1rem auto;
+    width: calc(45% - 2rem);
+    min-width: 19.5rem;
+
+}
+
+.user-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    max-width: 50rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .user-list {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.list-item {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.user-item a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    color: white;
+    background-color: #292929;
+}
+
+.user-item a:hover,
+user-container a:active {
+    background-color: #ffd900;
+}
+
+.user-content {
+    margin: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow: hidden;
+    background: white;
+    padding: 0;
+}
+
+.user-image {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 1rem;
+}
+
+.user-info h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    color: #ffd900;
+    display: flex;
+    align-items: center;
+}
+
+.user-item:hover h2,
+.user-item:active h2,
+.user-item:hover h3,
+.user-item:active h3 {
+    color: #292929;
+}
+
+.user-item h3 {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+.form-container {
+    margin: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow: hidden;
+    background-color: white;
+    width: 90%;
+    max-width: 25rem;
+    margin: 7rem auto;
+    text-align: center;
+}
+.form-container button {
+    margin: 0 1rem;
+}
+
+.form-container button {
+    text-align: center !important;
+    border-radius: 4px;
+    background: #ff0055;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.form-container button:hover {
+    color: white;
+    background: #830000;
+}

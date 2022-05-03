@@ -1,0 +1,127 @@
+.place-list {
+    list-style: none;
+    margin: 1rem auto;
+    padding: 0;
+    width: 90%;
+    max-width: 40rem;
+}
+
+.place-item {
+    background-color: black;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.place-content {
+    margin: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow: hidden;
+    background: white;
+    padding: 0;
+}
+
+.place-info {
+    padding: 1rem;
+}
+
+.place-image {
+    width: 100%;
+    height: 12.5rem;
+    margin-right: 1.5rem;
+}
+
+.place-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.place-info h2,
+.place-info h3,
+.place-info p {
+    margin: 0 0 0.5rem 0;
+}
+
+.place-button {
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.place-button button,
+.place-button a {
+    margin: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.place-button button:disabled,
+.place-button a:disabled {
+    background-color: #7b7777 !important;
+    cursor: not-allowed !important;
+}
+
+.place-button button,
+.modal__footer button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 4px;
+    background: #ff0055;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.place-button button:hover,
+.place-button button:active,
+.modal__footer button:hover,
+.modal__footer button:active {
+    color: white;
+    background: #830000;
+}
+
+.modal__footer {
+    display: flex;
+    justify-content: center;
+}
+
+.modal__footer button {
+    margin: 0 1rem;
+}
+
+@media (min-width: 768px) {
+    .place-image {
+        height: 20rem;
+    }
+}
+
+.no-place {
+    margin: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow: hidden;
+    background-color: white;
+    width: 90%;
+    max-width: 25rem;
+    margin: 7rem auto;
+    text-align: center;
+}
+.no-place button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 4px;
+    background: #ff0055;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.no-place button:hover {
+    color: white;
+    background: #830000;
+}
